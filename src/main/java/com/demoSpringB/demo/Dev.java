@@ -27,7 +27,7 @@ public class Dev {
 			this.laptop = laptop;
 		}*/
 	@Autowired
-	@Qualifier("desktop")	
+	@Qualifier("desktop") //should be class reference name	
 	Computer comp;
 
 	public void build() {
